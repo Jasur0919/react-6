@@ -7,17 +7,18 @@
 }
 
 .container {
-    max-width: 1300px;
-    margin: 0 auto;
+    max-width: 1645px ;
+    margin:  0 auto;
     padding: 0 20px;
 }
 
 .header_top_box {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 10px 0;
+    gap: 270px;
 }
 
 .header_top_product {
@@ -54,10 +55,12 @@
 .header_bot_box {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     margin: 20px 0 29px 0;
     flex-wrap: wrap;
+    gap: 160px;
 }
+
 
 .header_bot_box_child input{
     border: none;

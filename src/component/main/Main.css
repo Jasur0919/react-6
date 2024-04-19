@@ -11,3 +11,166 @@
     margin:  0 auto;
     padding: 0 20px;
 }
+
+.brend {
+   background:  #E6E6E6;
+}
+
+.brend_box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 268px 0 220px 0;
+    gap: 230px;
+
+}
+
+.brend_text {
+    text-align: left;
+}
+
+.brend_text span {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+   
+}
+
+.brend_text_h4 {
+    color: #F53E32;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.brend_text_h3 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.brend_text h1 {
+    max-width: 522px;
+    font-size: 55px;
+    font-weight: 900;
+    line-height: 68px;
+    margin: 15px 0 20px 0;
+
+}
+
+.brend_text p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26.25px;
+    max-width: 468px;
+
+}
+
+.brend_text_input {
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+
+}
+
+.brend_text_input input {
+    border: none;
+    outline: none;
+    width: 292.45px;
+    padding: 18px 20px;
+    border-radius: 50px;
+    background: white;
+}
+
+.brend_text_input button {
+    border: none;
+    outline: none;
+    width: 157.55px;
+    padding: 22px 39.68px 22px 40px;
+    border-radius: 50px;
+    background: #3BB77E;
+    color: white;
+    margin-left: -50px;
+}
+
+.brend_btn button{ 
+    width: 139.06px;
+    padding: 12px 20.68px 13px 21px;
+    border-radius: 30px;
+    border: 1px;
+    color: #3BB77E;
+    font-size: 17px;
+    font-weight: 700;
+    transition: .3s linear;
+}
+
+.brend_btn button:hover  {
+    color: black;
+}
+
+.brend_btn span {
+    color: gray;
+    font-size: 20px;
+    font-weight: 200px;
+
+}
+
+.brend_mobiles {
+    margin-top: -300px !important;
+    margin-left: 954px;
+}
+
+
+/*   H E R O   ////////// */
+
+.hero {
+    margin: 75px 0;
+}
+
+.hero_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.hero_card {
+    width: 500.66px;
+    height: 300.38px;
+    border-radius: 10px 0px 0px 0px;
+    background: rgb(235, 235, 239);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: center
+    
+}
+
+.hero_img {
+    width: 200px;
+}
+
+.hero_card_text {
+    
+}
+
+.hero_card_text p {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    width: 203px;
+}
+
+.hero_card_text button {
+    width: 103.61px;
+    height: 31.59px;
+    padding: 8px 9px 8px 13px;
+    border-radius: 4px;
+    background: #F53E32;
+    border: none;
+    outline: none;
+    color: white;
+    margin-top: 20px;
+}
