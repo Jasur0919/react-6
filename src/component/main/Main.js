@@ -52,7 +52,7 @@ const Main = () => {
         //   </div>
 
         // </div>
-    let cards = data?.slice(0,20).map((pro) => (
+    let cards = data?.slice(0,16).map((pro) => (
 
         <div className="logo_card" key={pro.id}>
            <h4 className='logo_card_h4-top'>New</h4>
@@ -174,6 +174,20 @@ const Main = () => {
                         <span className='logo_card_span'>   <h3>$28.85</h3> <p>$32.8</p> <button className='logo_card_span_button'><img src={Cart12} alt="" /> Add</button></span>
                     </div>
                     */}
+                </div>
+            </div>
+        </section>
+
+        <section className="inter">
+            <div className="container">
+                <div className="inter_box">
+                    <div className="inter_text">
+                        <h1>Stay home & get your daily needs from our shop</h1>
+                        <p>Start You'r Daily Shopping with Nest Mart</p>
+                        <div className="inter_text-button">
+                            <input type="text" placeholder='Y' />
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
