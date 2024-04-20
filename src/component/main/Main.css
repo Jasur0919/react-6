@@ -174,3 +174,142 @@
     color: white;
     margin-top: 20px;
 }
+
+
+/*   L O G O   /////////// */
+
+.popular {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+
+}
+
+.popular_child {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    transition: .3s linear;
+    margin-bottom: 43px ;
+}
+
+.popular_child p:hover {
+    color: #3BB77E;
+}
+
+.logo_box {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.logo_card {
+    width: 298px;
+    height: 445.38px;
+    border-radius: 15px;
+    border: 1px solid #ECECEC;
+    text-align: start;
+    padding: 0 25px;
+    margin-bottom: 30px;
+}
+
+.logo_card_img1 {
+    width: 216px;
+    height: 206px;
+    transition: .3s linear;
+}
+
+.logo_card_img1:hover {
+    transform: scale(1.05);
+   
+}
+
+.logo_card_h4-top {
+    width: 61.81px;
+    height: 31px;
+    padding: 7px 19.67px 9px 20px;
+    border-radius: 15px 0px 20px 0px;
+    background: #67BCEE;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -25px;
+}
+
+.logo_card_h4-bot {
+    font-size: 12px;
+    font-weight: 400;
+    color: #ADADAD;
+}
+
+.logo_card_h3-1 {
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    margin: 10px 0;
+
+}
+
+.logo_start {
+    display: flex;
+    align-items: center;
+    gap: 50px; 
+    color:#B6B6B6;
+}
+
+.logo_by {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin: 10px 0 24px 0;
+}
+
+.logo_by_child {
+    color: #F53E32;
+}
+
+.logo_card_span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+
+}
+
+.logo_card_span h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #3BB77E;
+}
+
+.logo_card_span p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #ADADAD;
+    text-decoration: line-through;
+
+}
+
+.logo_card_span_button{
+    width: 84.91px;
+    height: 36px;
+    padding: 9px 19.64px 10px 20px;
+    border-radius: 4px;
+    background: #F53E32;
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 10px;
+    border: none;
+    outline: none;
+
+}
+
+.logo_card_span_button img{
+    width: 30px;
+}
+
